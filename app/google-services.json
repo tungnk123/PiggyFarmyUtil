@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "312901559616",
+    "project_id": "piggyfarmyutil",
+    "storage_bucket": "piggyfarmyutil.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:312901559616:android:85be90d421af872e9e46a5",
+        "android_client_info": {
+          "package_name": "com.example.piggyfarmyutil"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAEWiZ6oH84c8hxagFDHUWtL_oIXt_OVj4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

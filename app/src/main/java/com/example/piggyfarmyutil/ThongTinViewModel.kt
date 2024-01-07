@@ -5,7 +5,7 @@ import androidx.lifecycle.ViewModel
 
 class ThongTinViewModel : ViewModel() {
     val listThongTin: MutableLiveData<List<Pair<String, Int>>> = MutableLiveData()
-    private val uniqueItemsMap: MutableMap<String, Int> = mutableMapOf()
+    val uniqueItemsMap: MutableMap<String, Int> = mutableMapOf()
     fun addItemToThongTin(item: Pair<String, Int>) {
         if (uniqueItemsMap.containsKey(item.first)) {
             // If the item already exists, update its value in the map
